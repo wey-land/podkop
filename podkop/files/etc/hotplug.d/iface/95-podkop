@@ -1,0 +1,5 @@
+[ "$ACTION" = "ifup" ] || exit 0
+
+. /lib/functions.sh
+
+logger $ACTION $INTERFACE $DEVICE
